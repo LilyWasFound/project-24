@@ -16,9 +16,9 @@ function setup() {
 
 	//Create the Bodies Here.
 	paper = new Paper(100,640,50);
-	bin1 = new Bin(700,635,15,100);
-	bin2 = new Bin(600,635,15,100);
-	bin3 = new Bin(650,685,100,15);
+	bin1 = new Bin(750,635,15,100);
+	bin2 = new Bin(550,635,15,100);
+	bin3 = new Bin(650,685,200,15);
 	ground = new Ground(400,695,800,10);
 }
 
@@ -36,7 +36,7 @@ function draw() {
 
 function keyPressed(){ 
 	if (keyCode === UP_ARROW){
-	Matter.Body.applyForce(paper.body,paper.body.position,{x:85,y:-85}); 
+	Matter.Body.applyForce(paper.body,paper.body.position,{x:400,y:-400}); 
 	} 
 }
 
