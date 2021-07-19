@@ -15,7 +15,7 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-	paper = new Paper(100,10,50);
+	paper = new Paper(100,640,50);
 	bin1 = new Bin(700,635,15,100);
 	bin2 = new Bin(600,635,15,100);
 	bin3 = new Bin(650,685,100,15);
